@@ -1,0 +1,19 @@
+body {
+ background-color: black;
+ color: white;
+ font-family: "Ubuntu", sans serif;
+}
+
+.disclaimer {
+ background-color: #272b33;
+ text-align: center;
+ padding: 5px;
+}
+
+nav {
+ background-image: url("../images/toolbar.jpg");
+}
+
+.navbar-brand {
+ color: white;
+}
