@@ -8,12 +8,63 @@ body {
  background-color: #272b33;
  text-align: center;
  padding: 5px;
+ height: 42px;
 }
 
 nav {
- background-image: url("../images/toolbar.jpg");
+ background: linear-gradient(90deg, rgb(32, 42, 93) 0%, rgb(29, 42, 95) 100%);
+ padding: 10px 20px;
+ color: #dfeafe;
+ height: 83px;
+}
+
+nav button {
+ background-color: #6c39f1;
+ color: #dfeafe;
+ border-radius: 10px;
+ border: 3px inset #dfeafe;
+}
+
+.navbar-toggler {
+ background-color: #dfeafe;
+}
+
+nav ul {
+ list-style: none;
+ margin: 0;
+ font-size: 18px;
+}
+
+nav li {
+ margin: 50px 8px 0 8px;
+ display: inline;
+}
+
+nav li:hover {
+ cursor: pointer;
+ color: #7680dc;
 }
 
 .navbar-brand {
  color: white;
+ margin-left: 50px;
+ font-size: 20px;
+}
+
+.nav-top {
+ background: linear-gradient(
+  90deg,
+  rgb(6, 120, 170) 0%,
+  rgb(165, 214, 255) 100%
+ );
+ padding: 1px;
+}
+
+.nav-bottom {
+ background: linear-gradient(
+  90deg,
+  rgb(165, 214, 255) 0%,
+  rgb(6, 120, 170) 100%
+ );
+ padding: 1px;
 }
