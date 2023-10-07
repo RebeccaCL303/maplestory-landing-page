@@ -1,0 +1,61 @@
+.Header .disclaimer {
+ background-color: #272b33;
+ text-align: center;
+ padding: 5px;
+ max-height: 55px;
+}
+
+.Header nav {
+ background-image: url("../images/tumblr-galaxy.png");
+ padding: 20px;
+ color: var(--primary-text);
+ max-height: 85px;
+}
+
+.Header i {
+ font-size: 20px;
+}
+
+.Header .navbar-toggler {
+ background-color: var(--primary-text);
+}
+
+.Header nav ul {
+ list-style: none;
+ margin: 0 20px;
+ font-size: 18px;
+}
+
+.Header nav li {
+ margin: 0 10px;
+ display: inline;
+}
+
+.Header nav li:hover {
+ cursor: pointer;
+ color: #7680dc;
+}
+
+.Header .navbar-brand {
+ color: white;
+ margin-left: 50px;
+ font-size: 20px;
+}
+
+.Header .nav-top {
+ background: linear-gradient(
+  90deg,
+  rgb(6, 120, 170) 0%,
+  rgb(165, 214, 255) 100%
+ );
+ padding: 1px;
+}
+
+.Header .nav-bottom {
+ background: linear-gradient(
+  90deg,
+  rgb(165, 214, 255) 0%,
+  rgb(6, 120, 170) 100%
+ );
+ padding: 1px;
+}

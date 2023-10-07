@@ -1,12 +1,14 @@
 import "./App.css";
-import Header from "./Header.js";
+import Header from "./Header/Header.js";
+import CurrentEvents from "./CurrentEvents.js";
 
 function App() {
  return (
   <div className="App">
-   <div className="container">
-    <Header />
-   </div>
+   <Header />
+   <main>
+    <CurrentEvents />
+   </main>
   </div>
  );
 }

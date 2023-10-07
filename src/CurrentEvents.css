@@ -1,0 +1,7 @@
+.CurrentEvents {
+ border-bottom: 2px solid var(--light-blue);
+}
+
+.CurrentEvents img {
+ width: 100%;
+}
