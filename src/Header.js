@@ -4,56 +4,56 @@ import "./Header.css";
 
 function Header() {
  return (
-  <header class="fixed-top">
-   <section class="disclaimer">
+  <header className="fixed-top">
+   <section className="disclaimer">
     <strong>Disclaimer: </strong>this is a coding project, I do not own any
     rights or services shown on this page.
    </section>
-   <div class="nav-top"></div>
-   <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark">
-    <div class="container-fluid">
-     <a class="navbar-brand" href="#">
+   <div className="nav-top"></div>
+   <nav className="navbar navbar-expand-lg bg-body-tertiary bg-dark">
+    <div className="container-fluid">
+     <a className="navbar-brand" href="/">
       🍁Maplestory🍁
      </a>
      <button
-      class="navbar-toggler"
+      className="navbar-toggler"
       type="button"
       data-bs-toggle="collapse"
       data-bs-target="#navbarNav"
       aria-controls="navbarNav"
       aria-expanded="false"
       aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+      <span className="navbar-toggler-icon"></span>
      </button>
-     <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="primary-header">
+     <div className="collapse navbar-collapse" id="navbarNav">
+      <ul className="primary-header">
        <li>News</li>
        <li>The Game</li>
        <li>Community</li>
        <li>Support</li>
        <li>Buy Merch</li>
       </ul>
-      <ul class="social-header">
+      <ul className="social-header">
        <li>
-        <i class="fa-brands fa-facebook"></i>
+        <i className="fa-brands fa-facebook"></i>
        </li>
        <li>
-        <i class="fa-brands fa-twitter"></i>
+        <i className="fa-brands fa-twitter"></i>
        </li>
        <li>
-        <i class="fa-brands fa-youtube"></i>
+        <i className="fa-brands fa-youtube"></i>
        </li>
        <li>
-        <i class="fa-brands fa-instagram"></i>
+        <i className="fa-brands fa-instagram"></i>
        </li>
        <li>
-        <i class="fa-brands fa-twitch"></i>
+        <i className="fa-brands fa-twitch"></i>
        </li>
        <li>
-        <i class="fa-brands fa-discord"></i>
+        <i className="fa-brands fa-discord"></i>
        </li>
        <li>
-        <i class="fa-brands fa-tiktok"></i>
+        <i className="fa-brands fa-tiktok"></i>
        </li>
       </ul>
      </div>
@@ -64,7 +64,7 @@ function Header() {
      </button>
     </div>
    </nav>
-   <div class="nav-bottom"></div>
+   <div className="nav-bottom"></div>
   </header>
  );
 }
