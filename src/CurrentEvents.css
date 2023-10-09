@@ -1,7 +1,42 @@
 .CurrentEvents {
  border-bottom: 2px solid var(--light-blue);
+ margin: auto;
+ position: relative;
+}
+
+.CurrentEvents i {
+ color: white;
+ position: absolute;
+ font-size: 25px;
+ transition: 200ms all ease-in-out;
+ top: 50%;
+ transform: translateY(-50%);
+}
+
+.CurrentEvents i:hover {
+ cursor: pointer;
+ text-shadow: -3px -3px 10px rgba(255, 255, 255, 0.4);
+}
+
+.CurrentEvents i:first-child {
+ left: 22px;
+}
+
+.CurrentEvents i:last-child {
+ right: 22px;
 }
 
 .CurrentEvents img {
+ max-height: 300px;
  width: 100%;
+}
+
+.CurrentEvents ul {
+ list-style: none;
+ padding: 0;
+ margin: 0;
+ display: grid;
+ grid-auto-flow: column;
+ grid-auto-columns: calc(100%);
+ overflow: hidden;
 }
