@@ -40,4 +40,5 @@
  grid-auto-flow: column;
  grid-auto-columns: calc(100%);
  overflow: hidden;
+ scroll-behavior: smooth;
 }

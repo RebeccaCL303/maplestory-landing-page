@@ -5,13 +5,21 @@ import "./CurrentEvents.css";
 export default function CurrentEvents() {
  function getWidth() {
   const imgWidth = document.getElementById("image").offsetWidth;
-  console.log(imgWidth);
+  return imgWidth;
+ }
+
+ function scrollLeft() {
+  document.getElementById("img-gallery").scrollLeft += getWidth();
+ }
+
+ function scrollRight() {
+  document.getElementById("img-gallery").scrollRight += getWidth();
  }
 
  return (
   <div className="CurrentEvents">
-   <i className="fa-solid fa-chevron-left"></i>
-   <ul>
+   <i onClick={scrollLeft} className="fa-solid fa-chevron-left"></i>
+   <ul id="img-gallery">
     <li id="image">
      <img
       onLoad={getWidth}
@@ -28,7 +36,7 @@ export default function CurrentEvents() {
      />
     </li>
    </ul>
-   <i className="fa-solid fa-chevron-right text-end"></i>
+   <i onClick={scrollRight} className="fa-solid fa-chevron-right text-end"></i>
   </div>
  );
 }
