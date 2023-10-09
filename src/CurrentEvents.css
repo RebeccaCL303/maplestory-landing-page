@@ -11,6 +11,7 @@
  transition: 200ms all ease-in-out;
  top: 50%;
  transform: translateY(-50%);
+ text-shadow: -3px -3px 10px rgba(0, 0, 0, 0.3);
 }
 
 .CurrentEvents i:hover {

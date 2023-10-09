@@ -3,12 +3,18 @@ import React from "react";
 import "./CurrentEvents.css";
 
 export default function CurrentEvents() {
+ function getWidth() {
+  const imgWidth = document.getElementById("image").offsetWidth;
+  console.log(imgWidth);
+ }
+
  return (
   <div className="CurrentEvents">
-   <i class="fa-solid fa-chevron-left"></i>
-   <ul className="img-gallery">
-    <li>
+   <i className="fa-solid fa-chevron-left"></i>
+   <ul>
+    <li id="image">
      <img
+      onLoad={getWidth}
       className="img-fluid"
       src={require("./images/carnival-event.jpg")}
       alt="nautilus carnival event"
@@ -22,7 +28,7 @@ export default function CurrentEvents() {
      />
     </li>
    </ul>
-   <i class="fa-solid fa-chevron-right text-end"></i>
+   <i className="fa-solid fa-chevron-right text-end"></i>
   </div>
  );
 }
