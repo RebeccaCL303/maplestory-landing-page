@@ -57,7 +57,7 @@ function Header() {
        </li>
       </ul>
      </div>
-     <button>
+     <button className="me-5">
       <strong>PLAY FREE NOW</strong>
       <br />
       ON YOUR PC

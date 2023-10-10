@@ -10,7 +10,8 @@
  border: 3px inset var(--light-blue);
  padding: 5px 10px;
  transition: 200ms all ease-in-out;
- margin-right: 60px;
+ margin: auto;
+ display: block;
 }
 
 .App button:hover {
