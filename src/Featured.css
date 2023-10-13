@@ -1,15 +1,66 @@
 .Featured {
- margin: 80px 100px;
- padding: 0 15px;
+ background: linear-gradient(
+  205deg,
+  rgb(32, 31, 97) 0%,
+  rgb(124, 93, 189) 100%
+ );
+ width: 100%;
+ margin-top: 20px;
+}
+
+.Featured .featured-wrap {
+ max-width: 1100px;
+ margin: auto;
 }
 
 .Featured .card {
- background-color: darkgray;
  border-radius: 0;
- border-color: transparent;
- margin: 20px;
+ color: #484846;
+ border: none;
+ margin: 20px auto;
+ height: 450px;
+}
+
+.Featured .description {
+ margin: 10px;
+}
+
+.Featured .image {
+ height: 60%;
+ overflow-x: hidden;
+}
+
+.Featured .label {
+ background-color: #b20047;
+ color: white;
+ position: relative;
+ left: 0;
+ bottom: 0;
+ padding: 5px;
 }
 
 .Featured h2 {
- margin-bottom: 20px;
+ padding: 50px 0 20px 0;
+}
+
+.Featured h4 {
+ color: #191919;
+}
+
+.Featured p {
+ display: block;
+}
+
+.Featured .readmore {
+ position: absolute;
+ right: 10px;
+ bottom: 10px;
+ margin: 0;
+}
+
+.Featured .timestamp {
+ position: absolute;
+ left: 10px;
+ bottom: 10px;
+ margin: 0;
 }

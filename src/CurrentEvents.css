@@ -1,7 +1,6 @@
 .CurrentEvents {
  border-bottom: 2px solid var(--light-blue);
- margin: auto;
- position: relative;
+ margin-bottom: 20px;
 }
 
 .CurrentEvents i {
