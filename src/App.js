@@ -1,7 +1,7 @@
 import "./App.css";
 import Header from "./Header/Header.js";
-import CurrentEvents from "./CurrentEvents.js";
-import Featured from "./Featured.js";
+import CurrentEvents from "./CurrentEvents/CurrentEvents.js";
+import Featured from "./Featured/Featured.js";
 
 function App() {
  return (

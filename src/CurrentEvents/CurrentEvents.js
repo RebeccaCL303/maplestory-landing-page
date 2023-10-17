@@ -1,7 +1,7 @@
 import React from "react";
 
-import carnival from "./images/carnival-event.jpg";
-import sixStar from "./images/6th-star.jpg";
+import carnival from "../images/carnival-event.jpg";
+import sixStar from "../images/6th-star.jpg";
 import "./CurrentEvents.css";
 
 export default function CurrentEvents() {

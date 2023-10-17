@@ -1,5 +1,5 @@
 import React from "react";
-import carnival1 from "./images/carnival-event.jpg";
+import carnival1 from "../images/carnival-event.jpg";
 
 import "./Featured.css";
 
