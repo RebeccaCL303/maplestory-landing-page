@@ -19,8 +19,11 @@ export default function Featured() {
          Click here to read the patch notes for v.245 - Midnight Carnival -
          Nautilus.
         </p>
-        <p className="timestamp">6 Days Ago</p>
-        <p className="readmore">READ MORE</p>
+        <div className="card-bottom">
+         <p>
+          6 Days Ago <span>READ MORE</span>
+         </p>
+        </div>
        </div>
       </div>
      </li>
@@ -34,8 +37,53 @@ export default function Featured() {
          Click here to read the patch notes for v.245 - Midnight Carnival -
          Nautilus.
         </p>
-        <p className="timestamp">6 Days Ago</p>
-        <p className="readmore">READ MORE</p>
+        <div className="card-bottom">
+         <p>
+          6 Days Ago <span>READ MORE</span>
+         </p>
+        </div>
+       </div>
+      </div>
+     </li>
+    </ul>
+    <ul className="row">
+     <li className="col-12">
+      <div className="news">
+       <div className="image">
+        <img src={carnival1} alt="news" className="img-fluid" />
+        <span className="label">EVENT</span>
+       </div>
+       <div className="text">
+        <h4>Community Livestream - Sixth Star Showdown w/ Team Pepe!</h4>
+        <p>
+         Join Community Manager Ezrabell alongside Team Pepe from the Sixth Star
+         Showdown event in a Community Livestream!
+        </p>
+        <div className="news-bottom">
+         <p>
+          6 Days Ago <span>READ MORE</span>
+         </p>
+        </div>
+       </div>
+      </div>
+     </li>
+     <li className="col-12">
+      <div className="news">
+       <div className="image">
+        <img src={carnival1} alt="news" className="img-fluid" />
+        <span className="label">EVENT</span>
+       </div>
+       <div className="text">
+        <h4>Community Livestream - Sixth Star Showdown w/ Team Pepe!</h4>
+        <p>
+         Join Community Manager Ezrabell alongside Team Pepe from the Sixth Star
+         Showdown event in a Community Livestream!
+        </p>
+        <div className="news-bottom">
+         <p>
+          6 Days Ago <span>READ MORE</span>
+         </p>
+        </div>
        </div>
       </div>
      </li>
