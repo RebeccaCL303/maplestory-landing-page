@@ -6,6 +6,7 @@
  );
  width: 100%;
  margin-top: 20px;
+ padding: 20px;
 }
 
 .Featured .featured-wrap {
@@ -17,16 +18,13 @@
  border-radius: 0;
  color: #484846;
  border: none;
- margin: 20px auto;
+ margin: 10px auto;
  height: 450px;
+ max-width: 500px;
 }
 
-.Featured .description {
- margin: 10px;
-}
-
-.Featured .image {
- height: 60%;
+.Featured img {
+ height: 55%;
  overflow-x: hidden;
 }
 
@@ -40,7 +38,7 @@
 }
 
 .Featured h2 {
- padding: 50px 0 20px 0;
+ padding: 50px 0 20px 20px;
 }
 
 .Featured h4 {
@@ -49,6 +47,10 @@
 
 .Featured p {
  display: block;
+}
+
+.text {
+ margin: 10px;
 }
 
 .Featured .readmore {
