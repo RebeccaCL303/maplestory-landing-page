@@ -10,7 +10,7 @@ export default function Featured() {
     <h2>FEATURED NEWS AND UPDATES</h2>
     <ul className="row">
      <li className="col-6">
-      <div className="card">
+      <div className="card card-sm">
        <img src={carnival1} alt="news" />
        <div className="label">FEATURED UPDATE</div>
        <div className="text">
@@ -19,7 +19,7 @@ export default function Featured() {
          Click here to read the patch notes for v.245 - Midnight Carnival -
          Nautilus.
         </p>
-        <div className="card-bottom">
+        <div className="card-sm-bottom">
          <p>
           6 Days Ago <span>READ MORE</span>
          </p>
@@ -28,7 +28,7 @@ export default function Featured() {
       </div>
      </li>
      <li className="col-6">
-      <div className="card">
+      <div className="card card-sm">
        <img src={carnival1} alt="news" />
        <div className="label">FEATURED UPDATE</div>
        <div className="text">
@@ -37,7 +37,7 @@ export default function Featured() {
          Click here to read the patch notes for v.245 - Midnight Carnival -
          Nautilus.
         </p>
-        <div className="card-bottom">
+        <div className="card-sm-bottom">
          <p>
           6 Days Ago <span>READ MORE</span>
          </p>
@@ -48,7 +48,7 @@ export default function Featured() {
     </ul>
     <ul className="row">
      <li className="col-12">
-      <div className="news">
+      <div className="card card-lg">
        <div className="image">
         <img src={carnival1} alt="news" className="img-fluid" />
         <span className="label">EVENT</span>
@@ -59,7 +59,7 @@ export default function Featured() {
          Join Community Manager Ezrabell alongside Team Pepe from the Sixth Star
          Showdown event in a Community Livestream!
         </p>
-        <div className="news-bottom">
+        <div className="card-lg-bottom">
          <p>
           6 Days Ago <span>READ MORE</span>
          </p>
@@ -68,7 +68,7 @@ export default function Featured() {
       </div>
      </li>
      <li className="col-12">
-      <div className="news">
+      <div className="card card-lg">
        <div className="image">
         <img src={carnival1} alt="news" className="img-fluid" />
         <span className="label">EVENT</span>
@@ -79,7 +79,7 @@ export default function Featured() {
          Join Community Manager Ezrabell alongside Team Pepe from the Sixth Star
          Showdown event in a Community Livestream!
         </p>
-        <div className="news-bottom">
+        <div className="card-lg-bottom">
          <p>
           6 Days Ago <span>READ MORE</span>
          </p>
@@ -89,6 +89,9 @@ export default function Featured() {
      </li>
     </ul>
    </div>
+   <button className="p-3">
+    <strong>SEE MORE NEWS</strong>
+   </button>
   </div>
  );
 }

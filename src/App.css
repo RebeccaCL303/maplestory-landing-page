@@ -3,6 +3,10 @@
  --primary-text: #dfeafe;
 }
 
+* {
+ box-sizing: border-box;
+}
+
 .App button {
  background-color: #4e08ff;
  color: var(--primary-text);
