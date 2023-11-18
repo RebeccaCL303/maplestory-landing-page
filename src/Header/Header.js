@@ -57,11 +57,6 @@ function Header() {
        </li>
       </ul>
      </div>
-     <button>
-      <strong>PLAY FREE NOW</strong>
-      <br />
-      ON YOUR PC
-     </button>
     </div>
    </nav>
    <div className="nav-bottom"></div>
