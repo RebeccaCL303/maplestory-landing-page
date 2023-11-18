@@ -7,9 +7,9 @@
 
 .Header nav {
  background-image: url("../images/tumblr-galaxy.png");
- padding: 20px;
+ padding: 10px;
  color: var(--primary-text);
- max-height: 85px;
+ height: minmax(85px, fit-content);
 }
 
 .Header i {
@@ -18,6 +18,10 @@
 
 .Header .navbar-toggler {
  background-color: var(--primary-text);
+}
+
+.Header nav button {
+ margin: 0;
 }
 
 .Header nav ul {
@@ -38,7 +42,6 @@
 
 .Header .navbar-brand {
  color: white;
- margin-left: 50px;
  font-size: 20px;
 }
 
