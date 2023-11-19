@@ -12,7 +12,7 @@
  color: var(--primary-text);
  border-radius: 20px;
  border: 3px inset var(--light-blue);
- padding: 5px 10px;
+ padding: 5px 15px;
  transition: 200ms all ease-in-out;
  margin: auto;
  display: block;

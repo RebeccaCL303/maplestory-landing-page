@@ -12,16 +12,16 @@
  height: minmax(85px, fit-content);
 }
 
+.Header button {
+ margin: 0;
+}
+
 .Header i {
  font-size: 20px;
 }
 
 .Header .navbar-toggler {
  background-color: var(--primary-text);
-}
-
-.Header nav button {
- margin: 0;
 }
 
 .Header nav ul {
@@ -42,6 +42,10 @@
 .Header .navbar-brand {
  color: white;
  font-size: 20px;
+}
+
+.Header .collapse {
+ justify-content: space-between;
 }
 
 .Header .nav-top {
