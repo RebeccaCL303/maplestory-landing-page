@@ -9,32 +9,31 @@
 }
 
 .Featured .featured-wrap {
- box-sizing: border-box;
- max-width: 1100px;
+ max-width: 80vw;
  margin: auto;
 }
 
-.Featured .card-sm {
+.Featured .card {
  border-radius: 0;
  color: #484846;
- border: none;
+ padding: 0;
  margin: 10px auto;
- height: 500px;
- max-width: 500px;
+ aspect-ratio: 4 / 3;
+ width: 100%;
 }
 
-.Featured .card-sm img {
+.Featured .card img {
  height: 50%;
 }
 
-.Featured .label {
- background-color: #b20047;
- display: block;
- color: white;
- position: relative;
- left: 0;
- bottom: 0;
- padding: 5px;
+.Featured .card .text {
+ margin: 1rem;
+}
+
+.Featured .card-bottom p {
+ display: flex;
+ justify-content: space-between;
+ padding-top: 20px;
 }
 
 .Featured h2 {
@@ -47,49 +46,12 @@
  margin: 10px 0;
 }
 
-.Featured .card .text {
- margin: 10px;
-}
-
-.Featured .card-sm-bottom p {
- display: flex;
- justify-content: space-between;
- padding-top: 20px;
-}
-
-.Featured .card-lg {
- margin: 20px;
- height: 39vh;
- display: grid;
- grid-template-columns: 1fr 3fr;
- color: #484846;
-}
-
-.Featured .card-lg .text {
- display: inline;
- background-color: white;
- padding: 10px;
-}
-
-.card-lg .text p {
- margin: 20px auto;
-}
-
-.card-lg img {
- height: 87%;
-}
-
-.card-lg-bottom {
+.Featured .label {
+ background-color: #b20047;
+ display: block;
+ color: white;
  position: relative;
- top: 3.5rem;
-}
-
-.card-lg-bottom p {
- display: flex;
- justify-content: space-between;
-}
-
-.card-lg h4 {
- font-size: 1.7em;
- margin-top: 0;
+ left: 0;
+ bottom: 0;
+ padding: 5px;
 }
