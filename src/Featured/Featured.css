@@ -5,7 +5,6 @@
   rgb(124, 93, 189) 100%
  );
  width: 100%;
- margin-top: 20px;
  padding: 20px;
 }
 
@@ -39,7 +38,8 @@
 }
 
 .Featured h2 {
- padding: 50px 0 20px 20px;
+ text-align: center;
+ margin: 3rem 0;
 }
 
 .Featured h4 {
@@ -55,11 +55,6 @@
  display: flex;
  justify-content: space-between;
  padding-top: 20px;
-}
-
-.Featured ul {
- list-style: none;
- padding: 0;
 }
 
 .Featured .card-lg {
