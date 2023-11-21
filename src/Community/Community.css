@@ -1,0 +1,21 @@
+.Community {
+ background-color: #2b1f92;
+ padding: 20px;
+}
+
+.Community .community-wrap {
+ max-width: 80vw;
+ margin: auto;
+}
+
+.Community .community-grid {
+ width: 80vw;
+ height: 70vh;
+ border: 3px double var(--light-blue);
+ border-radius: 5px;
+ margin: 3rem auto;
+}
+
+.Community h2 {
+ margin: 3rem auto;
+}
