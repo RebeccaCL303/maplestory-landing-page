@@ -42,23 +42,23 @@
  justify-content: space-between;
 }
 
-@media (max-width: 65em) {
+@media only screen and (max-width: 69em) {
  .Community .community-grid {
-  display: block;
+  grid-auto-flow: row;
  }
 
  .Community h2 {
   text-align: center;
  }
+}
 
+@media only screen and (max-width: 52em) {
  .Community .grid-item {
   margin: 2rem 1rem;
  }
-
  .Community .grid-item :is(img, span:first-of-type) {
   float: none;
  }
-
  .Community .grid-item img {
   width: 100%;
   margin: 0 0 1rem 0;
