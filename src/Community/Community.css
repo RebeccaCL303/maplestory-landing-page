@@ -10,7 +10,6 @@
 
 .Community .community-grid {
  width: 100%;
- height: 70vh;
  border: 3px double var(--light-blue);
  border-radius: 5px;
  background-color: rgba(0, 0, 0, 0.6);
@@ -22,16 +21,46 @@
  margin: 3rem auto;
 }
 
-.Community .grid-item {
- display: flex;
- flex-wrap: wrap;
+.Community h4 {
+ font-size: 1.1rem;
 }
 
-.Community .grid-item span {
- width: 45%;
+.Community .grid-item {
+ height: min-content;
+ margin: 1rem;
+}
+
+.Community .grid-item img {
+ max-width: 100%;
+ height: auto;
+ float: inline-start;
+ margin-right: 10px;
 }
 
 .Community .grid-item p:last-of-type {
  display: flex;
  justify-content: space-between;
+}
+
+@media (max-width: 65em) {
+ .Community .community-grid {
+  display: block;
+ }
+
+ .Community h2 {
+  text-align: center;
+ }
+
+ .Community .grid-item {
+  margin: 2rem 1rem;
+ }
+
+ .Community .grid-item :is(img, span:first-of-type) {
+  float: none;
+ }
+
+ .Community .grid-item img {
+  width: 100%;
+  margin: 0 0 1rem 0;
+ }
 }

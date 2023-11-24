@@ -9,9 +9,7 @@ export default function Community() {
     <h2>COMMUNITY NEWS</h2>
     <div className="community-grid">
      <div className="grid-item">
-      <span>
-       <img src={art} alt="art corner" />
-      </span>
+      <img src={art} alt="art corner" />
       <span>
        <h4>Check Out the November 2023 Art Corner</h4>
        <p>Look at this month's roundup of our favorite fan art!</p>
@@ -21,9 +19,7 @@ export default function Community() {
       </span>
      </div>
      <div className="grid-item">
-      <span>
-       <img src={art} alt="art corner" />
-      </span>
+      <img src={art} alt="art corner" />
       <span>
        <h4>Check Out the November 2023 Art Corner</h4>
        <p>Look at this month's roundup of our favorite fan art!</p>
