@@ -6,7 +6,7 @@
 }
 
 .Header nav {
- background-image: url("../images/tumblr-galaxy.png");
+ background-image: url("../images/Header/tumblr-galaxy.png");
  padding: 20px;
  color: var(--primary-text);
  height: minmax(85px, fit-content);

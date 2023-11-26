@@ -1,5 +1,8 @@
 import React from "react";
-import carnival1 from "../images/carnival-event.jpg";
+import blackFriday from "../images/Featured/black-friday.jpg";
+import sixthJob from "../images/Featured/6th-job-patch.jpg";
+import contests from "../images/Featured/community-contests.jpg";
+import maintenance from "../images/Featured/maintenance.jpg";
 
 import "./Featured.css";
 
@@ -11,7 +14,7 @@ export default function Featured() {
     <div className="row">
      <div className="col-md-6">
       <div className="card">
-       <img src={carnival1} alt="news" />
+       <img src={blackFriday} alt="black friday cash shop event" />
        <div className="label">FEATURED UPDATE</div>
        <div className="text">
         <h4>[Updated 10/4] v.245 - Midnight Carnival - Nautilus Patch Notes</h4>
@@ -29,7 +32,7 @@ export default function Featured() {
      </div>
      <div className="col-md-6">
       <div className="card">
-       <img src={carnival1} alt="news" />
+       <img src={sixthJob} alt="6th job patch notes" />
        <div className="label">FEATURED UPDATE</div>
        <div className="text">
         <h4>[Updated 10/4] v.245 - Midnight Carnival - Nautilus Patch Notes</h4>
@@ -49,7 +52,7 @@ export default function Featured() {
     <div className="row">
      <div className="col-md-6">
       <div className="card">
-       <img src={carnival1} alt="news" />
+       <img src={contests} alt="community contests" />
        <div className="label">FEATURED UPDATE</div>
        <div className="text">
         <h4>[Updated 10/4] v.245 - Midnight Carnival - Nautilus Patch Notes</h4>
@@ -67,7 +70,7 @@ export default function Featured() {
      </div>
      <div className="col-md-6">
       <div className="card">
-       <img src={carnival1} alt="news" />
+       <img src={maintenance} alt="game maintenance completed" />
        <div className="label">FEATURED UPDATE</div>
        <div className="text">
         <h4>[Updated 10/4] v.245 - Midnight Carnival - Nautilus Patch Notes</h4>
