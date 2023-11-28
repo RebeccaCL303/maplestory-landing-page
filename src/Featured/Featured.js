@@ -15,16 +15,16 @@ export default function Featured() {
      <div className="col-md-6">
       <div className="card">
        <img src={blackFriday} alt="black friday cash shop event" />
-       <div className="label">FEATURED UPDATE</div>
+       <div className="label">FEATURED SALE</div>
        <div className="text">
-        <h4>[Updated 10/4] v.245 - Midnight Carnival - Nautilus Patch Notes</h4>
+        <h4>Black Friday 2023 Sales!</h4>
         <p>
-         Click here to read the patch notes for v.245 - Midnight Carnival -
-         Nautilus.
+         Take advantage of dozens of deals with new items on sale every day
+         through Cyber Monday!
         </p>
         <div className="card-bottom">
          <p>
-          6 Days Ago <span>READ MORE</span>
+          NOV 19, 2023 <span>READ MORE</span>
          </p>
         </div>
        </div>
@@ -35,14 +35,11 @@ export default function Featured() {
        <img src={sixthJob} alt="6th job patch notes" />
        <div className="label">FEATURED UPDATE</div>
        <div className="text">
-        <h4>[Updated 10/4] v.245 - Midnight Carnival - Nautilus Patch Notes</h4>
-        <p>
-         Click here to read the patch notes for v.245 - Midnight Carnival -
-         Nautilus.
-        </p>
+        <h4>[Updated November 21] v.246 - New Age: 6th Job Patch Notes</h4>
+        <p>Click here to read the patch notes for v.246 - New Age: 6th Job.</p>
         <div className="card-bottom">
          <p>
-          6 Days Ago <span>READ MORE</span>
+          NOV 14, 2023 <span>READ MORE</span>
          </p>
         </div>
        </div>
@@ -55,14 +52,14 @@ export default function Featured() {
        <img src={contests} alt="community contests" />
        <div className="label">FEATURED UPDATE</div>
        <div className="text">
-        <h4>[Updated 10/4] v.245 - Midnight Carnival - Nautilus Patch Notes</h4>
+        <h4>November 2023 Community Contests and Events</h4>
         <p>
-         Click here to read the patch notes for v.245 - Midnight Carnival -
-         Nautilus.
+         Take a look at the new and upcoming Community Contests below, and be
+         prepared to test your imagination!
         </p>
         <div className="card-bottom">
          <p>
-          6 Days Ago <span>READ MORE</span>
+          5 DAYS AGO <span>READ MORE</span>
          </p>
         </div>
        </div>
@@ -73,14 +70,15 @@ export default function Featured() {
        <img src={maintenance} alt="game maintenance completed" />
        <div className="label">FEATURED UPDATE</div>
        <div className="text">
-        <h4>[Updated 10/4] v.245 - Midnight Carnival - Nautilus Patch Notes</h4>
+        <h4>[Completed] Scheduled Maintenance - November 21, 2023</h4>
         <p>
-         Click here to read the patch notes for v.245 - Midnight Carnival -
-         Nautilus.
+         The maintenance has been completed and we have extended Cash Shop items
+         for 4 hours. Please restart your Nexon Launcher or Steam to make sure
+         that you get the latest client! Thank you for your patience.
         </p>
         <div className="card-bottom">
          <p>
-          6 Days Ago <span>READ MORE</span>
+          NOV 19, 2023 <span>READ MORE</span>
          </p>
         </div>
        </div>
