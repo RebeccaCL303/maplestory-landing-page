@@ -15,13 +15,24 @@
  margin: 3rem auto;
 }
 
+.Featured h2 {
+ margin: 3rem 0;
+}
+
+.Featured h4 {
+ color: #191919;
+ margin: 10px 0;
+}
+
+/* card styling starts here */
+
 .Featured .card {
  border-radius: 0;
  color: #484846;
  padding: 0;
  margin: 10px auto;
  width: 90%;
- height: auto;
+ aspect-ratio: 5 / 4;
  border: none;
 }
 
@@ -40,21 +51,30 @@
  padding-top: 20px;
 }
 
-.Featured h2 {
- margin: 3rem 0;
-}
-
-.Featured h4 {
- color: #191919;
- margin: 10px 0;
-}
+/* label styling starts here */
 
 .Featured .label {
- background-color: #b20047;
- display: block;
  color: white;
  position: relative;
  left: 0;
  bottom: 0;
- padding: 5px;
+ padding: 8px;
+ font-size: 1.1rem;
+ letter-spacing: 0.5px;
+}
+
+.Featured .sale {
+ background-color: #143aab;
+}
+
+.Featured .update {
+ background-color: #8e0039;
+}
+
+.Featured .community {
+ background-color: #5f008f;
+}
+
+.Featured .maintenance {
+ background-color: #a64200;
 }
