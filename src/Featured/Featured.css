@@ -11,8 +11,15 @@
  margin: auto;
 }
 
-.Featured button {
- margin: 3rem auto;
+.Featured .button-wrap {
+ width: min-content;
+ margin: auto;
+}
+
+.Featured .button-wrap img {
+ width: 12.5em;
+ height: 2.5em;
+ cursor: pointer;
 }
 
 .Featured h2 {
@@ -20,7 +27,7 @@
 }
 
 .Featured h4 {
- color: #191919;
+ color: whitesmoke;
  margin: 10px 0;
 }
 
@@ -28,7 +35,8 @@
 
 .Featured .card {
  border-radius: 0;
- color: #484846;
+ color: whitesmoke;
+ background-color: #181a1b;
  padding: 0;
  margin: 10px auto;
  width: 90%;
@@ -43,6 +51,10 @@
 
 .Featured .card .text {
  margin: 1rem;
+}
+
+.Featured .card .text p {
+ opacity: 0.8;
 }
 
 .Featured .card-bottom p {

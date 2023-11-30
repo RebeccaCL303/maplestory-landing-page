@@ -3,10 +3,24 @@ import blackFriday from "../images/Featured/black-friday.jpg";
 import sixthJob from "../images/Featured/6th-job-patch.jpg";
 import contests from "../images/Featured/community-contests.jpg";
 import maintenance from "../images/Featured/maintenance.jpg";
+import seeMoreRest from "../images/buttons/see-more-news-rest.png";
+import seeMoreHover from "../images/buttons/see-more-news-over.png";
 
 import "./Featured.css";
 
 export default function Featured() {
+ function change() {
+  const img = document.querySelector(".see-more");
+  img.src = { seeMoreHover };
+  img.alt = "see more2";
+ }
+
+ function change2() {
+  const img = document.querySelector(".see-more");
+  img.src = { seeMoreRest };
+  img.alt = "see more";
+ }
+
  return (
   <div className="Featured">
    <div className="featured-wrap">
@@ -86,9 +100,16 @@ export default function Featured() {
      </div>
     </div>
    </div>
-   <button className="p-3">
-    <strong>SEE MORE NEWS</strong>
-   </button>
+   <p className="button-wrap">
+    <img
+     onMouseEnter={change}
+     onMouseLeave={change2}
+     className="see-more"
+     src={seeMoreRest}
+     alt="see more"
+    />
+    <span className="sr-only">SEE MORE NEWS</span>
+   </p>
   </div>
  );
 }
