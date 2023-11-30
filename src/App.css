@@ -8,19 +8,20 @@
 }
 
 .App button {
- background-color: #4e08ff;
- color: var(--primary-text);
+ background: linear-gradient(rgb(255, 239, 239), rgb(189, 189, 189));
+ color: rgb(20, 20, 20);
  border-radius: 20px;
- border: 3px inset var(--light-blue);
+ border: 3px inset #781eff;
  padding: 5px 15px;
- transition: 200ms all ease-in-out;
+ transition: 300ms all ease-in-out;
  margin: auto;
  display: block;
+ font-weight: 600;
 }
 
 .App button:hover {
- background-color: #7332d1;
- border-style: outset;
+ background: #781eff;
+ border: 3px outset #ac82ee;
  color: white;
  text-shadow: -3px -3px 10px rgba(255, 255, 255, 0.4);
 }
