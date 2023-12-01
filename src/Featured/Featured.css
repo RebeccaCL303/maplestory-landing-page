@@ -12,14 +12,28 @@
 }
 
 .Featured .button-wrap {
- width: min-content;
- margin: auto;
+ display: flex;
+ justify-items: center;
+ flex-direction: column;
+ margin: 2rem auto;
+ width: 12.5em;
+ height: 3em;
+ overflow: hidden;
+ transition: all linear 2s;
+}
+
+.Featured .button-wrap:hover .rest-img {
+ display: none;
+}
+
+.Featured .button-wrap:hover .hover-img {
+ opacity: 1;
 }
 
 .Featured .button-wrap img {
- width: 12.5em;
- height: 2.5em;
  cursor: pointer;
+ object-fit: contain;
+ width: 100%;
 }
 
 .Featured h2 {

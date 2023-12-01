@@ -9,18 +9,6 @@ import seeMoreHover from "../images/buttons/see-more-news-over.png";
 import "./Featured.css";
 
 export default function Featured() {
- function change() {
-  const img = document.querySelector(".see-more");
-  img.src = { seeMoreHover };
-  img.alt = "see more2";
- }
-
- function change2() {
-  const img = document.querySelector(".see-more");
-  img.src = { seeMoreRest };
-  img.alt = "see more";
- }
-
  return (
   <div className="Featured">
    <div className="featured-wrap">
@@ -101,13 +89,8 @@ export default function Featured() {
     </div>
    </div>
    <p className="button-wrap">
-    <img
-     onMouseEnter={change}
-     onMouseLeave={change2}
-     className="see-more"
-     src={seeMoreRest}
-     alt="see more"
-    />
+    <img src={seeMoreRest} className="rest-img" alt="see more" />
+    <img src={seeMoreHover} className="hover-img" alt="see more" />
     <span className="sr-only">SEE MORE NEWS</span>
    </p>
   </div>
