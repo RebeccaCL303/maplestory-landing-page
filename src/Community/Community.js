@@ -5,6 +5,8 @@ import communityContest from "../images/Featured/community-contests.jpg";
 import livestream from "../images/Community/livestream-news.png";
 import yourMaplestory from "../images/Community/your-maplestory.jpg";
 import artCorner from "../images/Community/art-corner.jpg";
+import seeMoreRest from "../images/buttons/see-more-comm-rest.png";
+import seeMoreHover from "../images/buttons/see-more-comm-over.png";
 
 export default function Community() {
  return (
@@ -110,11 +112,19 @@ export default function Community() {
       </span>
      </div>
     </div>
-    <button>
-     SEE MORE
-     <br />
-     COMMUNITY NEWS
-    </button>
+    <p className="button-wrap">
+     <img
+      className="rest-img"
+      src={seeMoreRest}
+      alt="see more community news"
+     />
+     <img
+      className="hover-img"
+      src={seeMoreHover}
+      alt="see more community news"
+     />
+     <span className="sr-only">SEE MORE COMMUNITY NEWS</span>
+    </p>
    </div>
   </div>
  );

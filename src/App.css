@@ -7,27 +7,32 @@
  box-sizing: border-box;
 }
 
-.App button {
- background-color: #312244;
- color: #fdf8fb;
- border-radius: 20px;
- border: 3px inset #781eff;
- padding: 5px 15px;
- transition: 300ms all ease-in-out;
- margin: auto;
- display: block;
- font-weight: 600;
-}
-
-.App button:hover {
- background: #781eff;
- border: 3px outset #ac82ee;
- color: white;
- text-shadow: -3px -3px 10px rgba(255, 255, 255, 0.4);
-}
-
 .App :is(.Community, .Featured) {
  text-overflow: ellipsis;
+}
+
+/* button styling */
+
+.App .button-wrap {
+ display: flex;
+ justify-items: center;
+ flex-direction: column;
+ margin: 2rem auto;
+ width: 14em;
+ height: 4em;
+ overflow: hidden;
+ padding: 1rem 0;
+ transition: all linear 2s;
+}
+
+.App .button-wrap:hover .rest-img {
+ display: none;
+}
+
+.App .button-wrap img {
+ cursor: pointer;
+ object-fit: contain;
+ width: 100%;
 }
 
 .App .sr-only {

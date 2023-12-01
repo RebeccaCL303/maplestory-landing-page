@@ -89,8 +89,8 @@ export default function Featured() {
     </div>
    </div>
    <p className="button-wrap">
-    <img src={seeMoreRest} className="rest-img" alt="see more" />
-    <img src={seeMoreHover} className="hover-img" alt="see more" />
+    <img src={seeMoreRest} className="rest-img" alt="see more news" />
+    <img src={seeMoreHover} className="hover-img" alt="see more news" />
     <span className="sr-only">SEE MORE NEWS</span>
    </p>
   </div>
