@@ -112,7 +112,7 @@ export default function Community() {
       </span>
      </div>
     </div>
-    <p className="button-wrap">
+    <p className="btn-wrap">
      <img
       className="rest-img"
       src={seeMoreRest}

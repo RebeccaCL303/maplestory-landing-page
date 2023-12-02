@@ -13,7 +13,7 @@
 
 /* button styling */
 
-.App .button-wrap {
+.App .btn-wrap {
  display: flex;
  justify-items: center;
  flex-direction: column;
@@ -25,11 +25,11 @@
  transition: all linear 2s;
 }
 
-.App .button-wrap:hover .rest-img {
+.App .btn-wrap:hover .rest-img {
  display: none;
 }
 
-.App .button-wrap img {
+.App .btn-wrap img {
  cursor: pointer;
  object-fit: contain;
  width: 100%;
