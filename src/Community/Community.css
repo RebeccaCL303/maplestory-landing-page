@@ -3,6 +3,7 @@
  object-fit: cover;
  background-repeat: no-repeat;
  padding: 20px;
+ border-bottom: 2px solid var(--light-blue);
 }
 
 .Community .community-wrap {

@@ -5,6 +5,10 @@
  max-height: 55px;
 }
 
+.Header .disclaimer strong {
+ color: var(--teal-accent);
+}
+
 .Header nav {
  background-image: url("../images/Header/tumblr-galaxy.png");
  padding: 20px;

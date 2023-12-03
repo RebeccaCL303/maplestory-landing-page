@@ -1,6 +1,7 @@
 :root {
  --light-blue: #7fb3f4;
  --primary-text: #dfeafe;
+ --teal-accent: #3fafff;
 }
 
 * {
@@ -9,6 +10,11 @@
 
 .App :is(.Community, .Featured) {
  text-overflow: ellipsis;
+}
+
+.App a {
+ color: var(--teal-accent);
+ margin: 0 0.3rem;
 }
 
 /* button styling */

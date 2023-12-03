@@ -1,0 +1,14 @@
+.Footer {
+ background-color: rgb(12, 12, 12);
+ height: 20vh;
+ width: 100%;
+ text-align: center;
+ font-size: 1rem;
+ padding: 2rem;
+}
+
+@media (max-width: 70em) {
+ .Footer {
+  text-align: left;
+ }
+}

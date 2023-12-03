@@ -5,10 +5,6 @@ import "./Header.css";
 function Header() {
  return (
   <div className="Header">
-   <section className="disclaimer">
-    <strong>Disclaimer: </strong>this is a coding project, I do not own any
-    rights or services shown on this page.
-   </section>
    <div className="nav-top"></div>
    <nav className="navbar navbar-expand-lg bg-body-tertiary bg-dark">
     <div className="container-fluid">
