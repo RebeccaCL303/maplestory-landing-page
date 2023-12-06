@@ -15,7 +15,7 @@ export default function Featured() {
     <h2>FEATURED NEWS AND UPDATES</h2>
     <div className="row">
      <div className="col-md-6">
-      <div className="card card-short">
+      <div className="card card-sm">
        <img src={blackFriday} alt="black friday cash shop event" />
        <div className="label sale">FEATURED SALE</div>
        <div className="text">
@@ -33,7 +33,7 @@ export default function Featured() {
       </div>
      </div>
      <div className="col-md-6">
-      <div className="card card-short">
+      <div className="card card-sm">
        <img src={sixthJob} alt="6th job patch notes" />
        <div className="label update">FEATURED UPDATE</div>
        <div className="text">
@@ -49,10 +49,12 @@ export default function Featured() {
      </div>
     </div>
     <div className="row">
-     <div className="col-md-6">
-      <div className="card card-short">
-       <img src={contests} alt="community contests" />
-       <div className="label community">COMMUNITY</div>
+     <div className="col-md-12">
+      <div className="card card-lg">
+       <div className="photo">
+        <img src={contests} alt="community contests" />
+        <div className="label community">COMMUNITY</div>
+       </div>
        <div className="text">
         <h4>November 2023 Community Contests and Events</h4>
         <p>
@@ -68,7 +70,7 @@ export default function Featured() {
       </div>
      </div>
      <div className="col-md-12">
-      <div className="card card-long">
+      <div className="card card-lg">
        <div className="photo">
         <img src={maintenance} alt="game maintenance completed" />
         <div className="label maintenance">MAINTENANCE</div>

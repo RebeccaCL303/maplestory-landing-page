@@ -20,9 +20,13 @@
  margin: 10px 0;
 }
 
-/* card styling starts here */
+.Featured .card {
+ margin: 10px auto;
+}
 
-.Featured .card-short {
+/* small card styling */
+
+.Featured .card-sm {
  border-radius: 0;
  color: whitesmoke;
  background-color: #181a1b;
@@ -33,16 +37,16 @@
  border: none;
 }
 
-.Featured .card-short img {
+.Featured .card-sm img {
  height: auto;
  max-width: 100%;
 }
 
-.Featured .card-short .text {
+.Featured .card-sm .text {
  margin: 1rem;
 }
 
-.Featured .card-short .text p {
+.Featured .card-sm .text p {
  opacity: 0.8;
 }
 
@@ -54,36 +58,40 @@
 
 /* long card styling */
 
-.Featured .card-long {
+.Featured .card-lg {
  flex-wrap: wrap;
  flex-direction: row;
- margin: auto;
+ aspect-ratio: 1 / 0.25;
  width: 95%;
  padding: 0;
 }
 
-.Featured .card-long img {
+.Featured .card-lg img {
  object-fit: cover;
  width: 100%;
  height: 100%;
 }
 
-.Featured .card-long .label {
+.Featured .card-lg .label {
  position: absolute;
  width: 30%;
 }
 
-.Featured .card-long .photo {
+.Featured .card-lg .photo {
  width: 30%;
  margin-right: 1rem;
 }
 
-.Featured .card-long .text {
+.Featured .card-lg .text {
  width: 60%;
- margin: auto;
+ margin: 1rem;
 }
 
-/* label styling starts here */
+.Featured .card-lg .card-bottom {
+ padding-top: 2rem;
+}
+
+/* label styling */
 
 .Featured .label {
  color: white;
@@ -109,4 +117,47 @@
 
 .Featured .maintenance {
  background-color: #a64200;
+}
+
+/* responsive styling */
+
+@media (max-width: 700px) {
+ .Featured .card-lg {
+  border-radius: 0;
+  color: whitesmoke;
+  background-color: #181a1b;
+  padding: 0;
+  margin: 10px auto;
+  width: 90%;
+  aspect-ratio: 5 / 4;
+  border: none;
+ }
+
+ .Featured .card-lg :is(.photo, .text) {
+  float: none;
+  width: unset;
+ }
+
+ .Featured .card-lg .photo {
+  margin-right: 0;
+ }
+
+ .Featured .card-lg .text {
+  width: unset;
+  margin: 1rem;
+ }
+
+ .Featured .card-lg .label {
+  position: relative;
+  width: unset;
+ }
+
+ .Featured .card-lg img {
+  max-width: 100%;
+  height: auto;
+ }
+
+ .Featured .card-lg .card-bottom p {
+  padding-top: 20px;
+ }
 }
