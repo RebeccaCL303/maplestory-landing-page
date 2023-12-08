@@ -15,13 +15,38 @@
  margin: 3rem 0;
 }
 
-.Featured h4 {
- color: whitesmoke;
- margin: 10px 0;
+.Featured .col-md-6 {
+    padding-bottom: 1rem;
 }
 
+/* default card styling */
+
 .Featured .card {
- margin: 10px auto;
+margin: 10px auto;
+}
+
+.Featured .card h4 {
+ color: whitesmoke;
+ margin: 5px 0;
+font-size: 1.3rem;
+}
+
+.Featured .card :is(.readmore, .timestamp) {
+    position: absolute;
+    bottom: 2%;
+    font-size: 0.9rem;
+}
+
+.Featured .card .timestamp {
+    left: 1rem;
+}
+
+.Featured .card .readmore {
+    right: 1rem;
+}
+
+.Featured .card .card-bottom {
+    padding-top: 1rem;
 }
 
 /* small card styling */
@@ -30,30 +55,22 @@
  border-radius: 0;
  color: whitesmoke;
  background-color: #181a1b;
- padding: 0;
- margin: 10px auto;
  width: 90%;
- aspect-ratio: 5 / 4;
+ height: 100%;
  border: none;
 }
 
 .Featured .card-sm img {
- height: auto;
  max-width: 100%;
+ height: auto;
 }
 
 .Featured .card-sm .text {
- margin: 1rem;
+ margin: 0.5rem 1rem;
 }
 
 .Featured .card-sm .text p {
  opacity: 0.8;
-}
-
-.Featured .card-bottom p {
- display: flex;
- justify-content: space-between;
- padding-top: 20px;
 }
 
 /* long card styling */
@@ -121,7 +138,7 @@
 
 /* responsive styling */
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
  .Featured .card-lg {
   border-radius: 0;
   color: whitesmoke;
