@@ -15,54 +15,54 @@
  margin: 3rem 0;
 }
 
-.Featured .col-md-6 {
-    padding-bottom: 1rem;
+.Featured :is(.col-md-6, .col-md-12) {
+ margin: 0;
+ padding: 0;
 }
 
 /* default card styling */
 
 .Featured .card {
-margin: 10px auto;
+ margin: 0 auto 1rem;
+ color: whitesmoke;
+ background-color: #181a1b;
 }
 
 .Featured .card h4 {
  color: whitesmoke;
- margin: 5px 0;
-font-size: 1.3rem;
+ margin: 0.5rem 0;
 }
 
 .Featured .card :is(.readmore, .timestamp) {
-    position: absolute;
-    bottom: 2%;
-    font-size: 0.9rem;
+ position: absolute;
+ bottom: 2%;
 }
 
 .Featured .card .timestamp {
-    left: 1rem;
+ left: 1rem;
 }
 
 .Featured .card .readmore {
-    right: 1rem;
+ right: 1rem;
 }
 
 .Featured .card .card-bottom {
-    padding-top: 1rem;
+ padding-top: 1rem;
 }
 
 /* small card styling */
 
 .Featured .card-sm {
  border-radius: 0;
- color: whitesmoke;
- background-color: #181a1b;
- width: 90%;
- height: 100%;
+ width: 95%;
+ height: 95%;
  border: none;
 }
 
 .Featured .card-sm img {
  max-width: 100%;
- height: auto;
+ max-height: 50%;
+ object-fit: cover;
 }
 
 .Featured .card-sm .text {
@@ -79,7 +79,7 @@ font-size: 1.3rem;
  flex-wrap: wrap;
  flex-direction: row;
  aspect-ratio: 1 / 0.25;
- width: 95%;
+ width: 98%;
  padding: 0;
 }
 
@@ -138,21 +138,18 @@ font-size: 1.3rem;
 
 /* responsive styling */
 
-@media (max-width: 800px) {
+@media (max-width: 50em) {
  .Featured .card-lg {
   border-radius: 0;
-  color: whitesmoke;
-  background-color: #181a1b;
-  padding: 0;
-  margin: 10px auto;
-  width: 90%;
-  aspect-ratio: 5 / 4;
+  width: 95%;
+  height: 95%;
   border: none;
+  aspect-ratio: none;
  }
 
  .Featured .card-lg :is(.photo, .text) {
   float: none;
-  width: unset;
+  width: 100%;
  }
 
  .Featured .card-lg .photo {
@@ -160,8 +157,10 @@ font-size: 1.3rem;
  }
 
  .Featured .card-lg .text {
-  width: unset;
   margin: 1rem;
+  height: 100%;
+  position: relative;
+  bottom: 25%;
  }
 
  .Featured .card-lg .label {
@@ -171,7 +170,8 @@ font-size: 1.3rem;
 
  .Featured .card-lg img {
   max-width: 100%;
-  height: auto;
+  max-height: 50%;
+  object-fit: cover;
  }
 
  .Featured .card-lg .card-bottom p {
