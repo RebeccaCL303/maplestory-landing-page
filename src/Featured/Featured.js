@@ -26,7 +26,8 @@ export default function Featured() {
         </p>
         <div className="card-bottom">
          <p>
-          <span className="timestamp">NOV 19, 2023</span> <span className="readmore">READ MORE</span>
+          <span className="timestamp">NOV 19, 2023</span>{" "}
+          <span className="readmore">READ MORE</span>
          </p>
         </div>
        </div>
@@ -41,7 +42,8 @@ export default function Featured() {
         <p>Click here to read the patch notes for v.246 - New Age: 6th Job.</p>
         <div className="card-bottom">
          <p>
-         <span className="timestamp">NOV 14, 2023</span> <span className="readmore">READ MORE</span>
+          <span className="timestamp">NOV 14, 2023</span>{" "}
+          <span className="readmore">READ MORE</span>
          </p>
         </div>
        </div>

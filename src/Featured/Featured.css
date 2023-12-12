@@ -50,6 +50,10 @@
  padding-top: 1rem;
 }
 
+.Featured .card p {
+ opacity: 0.8;
+}
+
 /* small card styling */
 
 .Featured .card-sm {
@@ -67,10 +71,6 @@
 
 .Featured .card-sm .text {
  margin: 0.5rem 1rem;
-}
-
-.Featured .card-sm .text p {
- opacity: 0.8;
 }
 
 /* long card styling */
@@ -105,7 +105,14 @@
 }
 
 .Featured .card-lg .card-bottom {
- padding-top: 2rem;
+ position: absolute;
+ bottom: 0;
+ width: 60%;
+}
+
+.Featured .card-lg .card-bottom p {
+ display: flex;
+ justify-content: space-between;
 }
 
 /* label styling */
@@ -138,13 +145,25 @@
 
 /* responsive styling */
 
-@media (max-width: 50em) {
+@media (max-width: 70em) {
+ .Featured .card-lg .text {
+  margin-top: 0;
+ }
+
+ .Featured .card-lg .card-bottom {
+  bottom: -7%;
+ }
+
+ .Featured .card-lg .photo {
+  margin-right: 0;
+ }
+}
+
+@media (max-width: 45em) {
  .Featured .card-lg {
   border-radius: 0;
   width: 95%;
-  height: 95%;
-  border: none;
-  aspect-ratio: none;
+  height: 90%;
  }
 
  .Featured .card-lg :is(.photo, .text) {
@@ -157,8 +176,7 @@
  }
 
  .Featured .card-lg .text {
-  margin: 1rem;
-  height: 100%;
+  margin-bottom: 0;
   position: relative;
   bottom: 25%;
  }
@@ -174,7 +192,9 @@
   object-fit: cover;
  }
 
- .Featured .card-lg .card-bottom p {
-  padding-top: 20px;
+ .Featured .card-lg .card-bottom {
+  width: 100%;
+  left: 0;
+  bottom: -48%;
  }
 }
