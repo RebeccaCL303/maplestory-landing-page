@@ -7,10 +7,11 @@
  position: absolute;
  font-size: 25px;
  transition: 200ms all ease-in-out;
- top: 45%;
+ top: 40%;
  text-shadow: -3px -3px 20px black;
  background-color: rgba(255, 255, 255, 0.6);
- padding: 3px;
+ padding: 5px;
+ border-radius: 5px;
 }
 
 .CurrentEvents i:hover {
@@ -18,11 +19,11 @@
  color: navy;
 }
 
-.CurrentEvents i:first-child {
+.CurrentEvents i:first-of-type {
  left: 22px;
 }
 
-.CurrentEvents i:last-child {
+.CurrentEvents i:last-of-type {
  right: 22px;
 }
 
@@ -48,7 +49,7 @@
  text-align: center;
  left: 0;
  right: 0;
- bottom: 8%;
+ bottom: 16%;
  transform: translateY(-50%);
 }
 
