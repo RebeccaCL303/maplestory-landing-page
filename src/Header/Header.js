@@ -1,4 +1,6 @@
 import React from "react";
+import logoLg from "../images/Header/logo-lg.png";
+import logoSm from "../images/Header/logo-sm.png";
 
 import "./Header.css";
 
@@ -9,7 +11,12 @@ function Header() {
    <nav className="navbar navbar-expand-lg bg-body-tertiary bg-dark">
     <div className="container-fluid">
      <a className="navbar-brand" href="/">
-      🍁Maplestory🍁
+      <img
+       className="display"
+       src={logoLg}
+       alt="Maplestory text logo with a maple leaf"
+      />
+      <img className="hidden" src={logoSm} alt="Maple leaf logo" />
      </a>
      <button
       className="navbar-toggler"

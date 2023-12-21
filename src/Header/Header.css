@@ -1,19 +1,16 @@
-.Header .disclaimer {
- background-color: #272b33;
- text-align: center;
- padding: 5px;
- max-height: 55px;
-}
-
-.Header .disclaimer strong {
- color: var(--teal-accent);
-}
-
 .Header nav {
  background-image: url("../images/Header/tumblr-galaxy.png");
- padding: 20px;
- color: var(--primary-text);
+ padding: 0.8rem;
+ color: whitesmoke;
  height: minmax(85px, fit-content);
+}
+
+.Header .hidden {
+ display: none;
+}
+
+.Header .display {
+ display: inline-block;
 }
 
 .Header button {
@@ -44,8 +41,17 @@
 }
 
 .Header .navbar-brand {
- color: white;
- font-size: 20px;
+ margin: 0;
+ padding: 0;
+ position: relative;
+ bottom: 0.4rem;
+}
+
+.Header .navbar-brand img {
+ max-width: 80%;
+ height: auto;
+ position: relative;
+ top: 0;
 }
 
 .Header .collapse {
@@ -58,7 +64,7 @@
   rgb(6, 120, 170) 0%,
   rgb(165, 214, 255) 100%
  );
- padding: 1px;
+ padding: 1.3px;
 }
 
 .Header .nav-bottom {
@@ -67,12 +73,24 @@
   rgb(165, 214, 255) 0%,
   rgb(6, 120, 170) 100%
  );
- padding: 1px;
+ padding: 1.3px;
 }
 
 @media (max-width: 900px) {
- .Header:not(.navbar-brand) {
+ .Header {
   text-align: center;
+ }
+
+ .Header .display {
+  display: none;
+ }
+
+ .Header .hidden {
+  display: inline-block;
+ }
+
+ .Header .navbar-brand {
+  position: static;
  }
 
  .Header ul {
