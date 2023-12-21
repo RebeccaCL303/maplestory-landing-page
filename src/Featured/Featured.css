@@ -7,7 +7,7 @@
 }
 
 .Featured .featured-wrap {
- max-width: 80vw;
+ max-width: 75vw;
  margin: auto;
 }
 
@@ -58,7 +58,7 @@
 
 .Featured .card-sm {
  border-radius: 0;
- width: 95%;
+ width: 90%;
  height: 95%;
  border: none;
 }
@@ -79,7 +79,7 @@
  flex-wrap: wrap;
  flex-direction: row;
  aspect-ratio: 1 / 0.25;
- width: 98%;
+ width: 95%;
  padding: 0;
 }
 
@@ -91,23 +91,22 @@
 
 .Featured .card-lg .label {
  position: absolute;
- width: 30%;
+ width: 40%;
 }
 
 .Featured .card-lg .photo {
- width: 30%;
- margin-right: 1rem;
+ width: 40%;
 }
 
 .Featured .card-lg .text {
- width: 60%;
+ width: 50%;
  margin: 1rem;
 }
 
 .Featured .card-lg .card-bottom {
  position: absolute;
  bottom: 0;
- width: 60%;
+ width: 50%;
 }
 
 .Featured .card-lg .card-bottom p {
@@ -146,12 +145,20 @@
 /* responsive styling */
 
 @media (max-width: 70em) {
- .Featured .card-lg .text {
-  margin-top: 0;
+ .Featured .featured-wrap {
+  max-width: 80vw;
  }
 
- .Featured .card-lg .card-bottom {
-  bottom: -7%;
+ .Featured h4 {
+  font-size: 1.3rem;
+ }
+
+ .Featured .card-lg .text {
+  margin: 0 1rem 0.5rem;
+ }
+
+ .Featured .card-lg :is(.readmore, .timestamp) {
+  position: relative;
  }
 
  .Featured .card-lg .photo {
@@ -159,31 +166,43 @@
  }
 }
 
-@media (max-width: 45em) {
+@media (max-width: 50em) {
  .Featured .card-lg {
   border-radius: 0;
-  width: 95%;
-  height: 90%;
+  width: 90%;
+  height: 95%;
+  aspect-ratio: 5 / 2;
  }
 
  .Featured .card-lg :is(.photo, .text) {
   float: none;
-  width: 100%;
+  width: unset;
  }
 
  .Featured .card-lg .photo {
   margin-right: 0;
  }
 
+ .Featured .card-lg img {
+  max-width: 100%;
+  max-height: 50%;
+  object-fit: cover;
+ }
+
  .Featured .card-lg .text {
-  margin-bottom: 0;
+  margin: 0.5rem 1rem;
   position: relative;
-  bottom: 25%;
+  bottom: 28%;
+  height: 55%;
  }
 
  .Featured .card-lg .label {
   position: relative;
   width: unset;
+ }
+
+ .Featured .card-lg .card-bottom {
+  width: 100%;
  }
 
  .Featured .card-lg img {
@@ -195,6 +214,15 @@
  .Featured .card-lg .card-bottom {
   width: 100%;
   left: 0;
-  bottom: -48%;
+ }
+}
+
+@media (max-width: 576px) {
+ .Featured .featured-wrap {
+  max-width: 95vw;
+ }
+
+ .Featured .card-lg {
+  aspect-ratio: none;
  }
 }
