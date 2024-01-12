@@ -13,11 +13,11 @@ export default function Featured() {
   <div className="Featured">
    <div className="featured-wrap">
     <h2>FEATURED NEWS AND UPDATES</h2>
-    <div className="row">
+    <section className="row">
      <div className="col-md-6">
       <div className="card card-sm">
        <img src={blackFriday} alt="black friday cash shop event" />
-       <div className="label sale">FEATURED SALE</div>
+       <figcaption className="sale">FEATURED SALE</figcaption>
        <div className="text">
         <h4>Black Friday 2023 Sales!</h4>
         <p>
@@ -36,7 +36,7 @@ export default function Featured() {
      <div className="col-md-6">
       <div className="card card-sm">
        <img src={sixthJob} alt="6th job patch notes" />
-       <div className="label update">FEATURED UPDATE</div>
+       <figcaption className="update">FEATURED UPDATE</figcaption>
        <div className="text">
         <h4>[Updated November 21] v.246 - New Age: 6th Job Patch Notes</h4>
         <p>Click here to read the patch notes for v.246 - New Age: 6th Job.</p>
@@ -49,14 +49,14 @@ export default function Featured() {
        </div>
       </div>
      </div>
-    </div>
-    <div className="row">
+    </section>
+    <section className="row">
      <div className="col-md-12">
       <div className="card card-lg">
-       <div className="photo">
+       <figure>
         <img src={contests} alt="community contests" />
-        <div className="label community">COMMUNITY</div>
-       </div>
+        <figcaption className="community">COMMUNITY</figcaption>
+       </figure>
        <div className="text">
         <h4>November 2023 Community Contests and Events</h4>
         <p>
@@ -73,10 +73,10 @@ export default function Featured() {
      </div>
      <div className="col-md-12">
       <div className="card card-lg">
-       <div className="photo">
+       <figure>
         <img src={maintenance} alt="game maintenance completed" />
-        <div className="label maintenance">MAINTENANCE</div>
-       </div>
+        <figcaption className="maintenance">MAINTENANCE</figcaption>
+       </figure>
        <div className="text">
         <h4>[Completed] Scheduled Maintenance - November 21, 2023</h4>
         <p>
@@ -92,7 +92,7 @@ export default function Featured() {
        </div>
       </div>
      </div>
-    </div>
+    </section>
    </div>
    <p className="btn-wrap">
     <img src={seeMoreRest} className="rest-img" alt="see more news" />
