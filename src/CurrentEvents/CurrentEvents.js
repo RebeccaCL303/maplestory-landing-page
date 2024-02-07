@@ -11,8 +11,8 @@ export default function CurrentEvents() {
    <img className="image" src={newAge} alt="new age update" />
    <i className="fa-solid fa-chevron-right text-end"></i>
    <p className="btn-wrap play-btn">
-    <img className="rest-img" src={seeMoreRest} alt="" />
-    <img className="hover-img" src={seeMoreHover} alt="" />
+    <img aria-hidden="true" className="rest-img" src={seeMoreRest} alt="" />
+    <img aria-hidden="true" className="hover-img" src={seeMoreHover} alt="" />
     <span className="sr-only">SEE MORE COMMUNITY NEWS</span>
    </p>
   </div>

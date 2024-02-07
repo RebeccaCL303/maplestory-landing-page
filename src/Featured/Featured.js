@@ -19,7 +19,7 @@ export default function Featured() {
        <img src={blackFriday} alt="black friday cash shop event" />
        <figcaption className="sale">FEATURED SALE</figcaption>
        <div className="text">
-        <h4>Black Friday 2023 Sales!</h4>
+        <h3>Black Friday 2023 Sales!</h3>
         <p>
          Take advantage of dozens of deals with new items on sale every day
          through Cyber Monday!
@@ -38,7 +38,7 @@ export default function Featured() {
        <img src={sixthJob} alt="6th job patch notes" />
        <figcaption className="update">FEATURED UPDATE</figcaption>
        <div className="text">
-        <h4>[Updated November 21] v.246 - New Age: 6th Job Patch Notes</h4>
+        <h3>[Updated November 21] v.246 - New Age: 6th Job Patch Notes</h3>
         <p>Click here to read the patch notes for v.246 - New Age: 6th Job.</p>
         <div className="card-bottom">
          <p>
@@ -58,7 +58,7 @@ export default function Featured() {
         <figcaption className="community">COMMUNITY</figcaption>
        </figure>
        <div className="text">
-        <h4>November 2023 Community Contests and Events</h4>
+        <h3>November 2023 Community Contests and Events</h3>
         <p>
          Take a look at the new and upcoming Community Contests below, and be
          prepared to test your imagination!
@@ -78,7 +78,7 @@ export default function Featured() {
         <figcaption className="maintenance">MAINTENANCE</figcaption>
        </figure>
        <div className="text">
-        <h4>[Completed] Scheduled Maintenance - November 21, 2023</h4>
+        <h3>[Completed] Scheduled Maintenance - November 21, 2023</h3>
         <p>
          The maintenance has been completed and we have extended Cash Shop items
          for 4 hours. Please restart your Nexon Launcher or Steam to make sure
@@ -95,8 +95,18 @@ export default function Featured() {
     </section>
    </div>
    <p className="btn-wrap">
-    <img src={seeMoreRest} className="rest-img" alt="see more news" />
-    <img src={seeMoreHover} className="hover-img" alt="see more news" />
+    <img
+     aria-hidden="true"
+     src={seeMoreRest}
+     className="rest-img"
+     alt="see more news"
+    />
+    <img
+     aria-hidden="true"
+     src={seeMoreHover}
+     className="hover-img"
+     alt="see more news"
+    />
     <span className="sr-only">SEE MORE NEWS</span>
    </p>
   </div>

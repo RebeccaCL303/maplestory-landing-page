@@ -19,7 +19,7 @@ export default function Community() {
        <img src={communityContest} alt="community contests 2023" />
       </span>
       <span className="text">
-       <h4>November 2023 Contests and Events</h4>
+       <h3>November 2023 Contests and Events</h3>
        <p>
         Take a look at the new and upcoming Community Contests below, and be
         pre...
@@ -37,7 +37,7 @@ export default function Community() {
        />
       </span>
       <span className="text">
-       <h4>Community Livestream - Let's Play Hyp...</h4>
+       <h3>Community Livestream - Let's Play Hyp...</h3>
        <p>
         Join Community Manager Jade in the next Community Livestream as she
         expl...
@@ -52,7 +52,7 @@ export default function Community() {
        <img src={yourMaplestory} alt="characters gathered around a scrapbook" />
       </span>
       <span className="text">
-       <h4>What's Your MapleStory? - Skywired</h4>
+       <h3>What's Your MapleStory? - Skywired</h3>
        <p>
         We take a look at some of the great stories that our players have had
         wi...
@@ -70,7 +70,7 @@ export default function Community() {
        />
       </span>
       <span className="text">
-       <h4>Community Livestream - v.246 Update P...</h4>
+       <h3>Community Livestream - v.246 Update P...</h3>
        <p>
         Join Community Manager Veeraah and some special guests in the next
         Commu...
@@ -89,7 +89,7 @@ export default function Community() {
        />
       </span>
       <span className="text">
-       <h4>Community Livestream - Sixth Star Sho...</h4>
+       <h3>Community Livestream - Sixth Star Sho...</h3>
        <p>
         Join Community Manager Veeraah and some special guests in the next
         Commu...
@@ -104,7 +104,7 @@ export default function Community() {
        <img src={artCorner} alt="pink bean holding a paintbrush" />
       </span>
       <span className="text">
-       <h4>Check Out the November 2023 Art Corner</h4>
+       <h3>Check Out the November 2023 Art Corner</h3>
        <p>Look at this month's roundup of our favorite fan art!</p>
        <p>
         NOV 03, 2023 <span>READ MORE</span>
