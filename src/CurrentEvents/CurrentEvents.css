@@ -33,23 +33,12 @@
  height: 60vh;
 }
 
-.CurrentEvents ul {
- list-style: none;
- padding: 0;
- margin: 0;
- display: grid;
- grid-auto-flow: column;
- grid-auto-columns: calc(100%);
- overflow: hidden;
- scroll-behavior: smooth;
-}
-
 .CurrentEvents .play-btn {
  position: absolute;
  text-align: center;
  left: 0;
  right: 0;
- bottom: 16%;
+ bottom: 14%;
  transform: translateY(-50%);
 }
 
