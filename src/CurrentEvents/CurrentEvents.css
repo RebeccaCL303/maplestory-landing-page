@@ -1,5 +1,6 @@
 .CurrentEvents {
  border-bottom: 2px solid var(--light-blue);
+ position: relative;
 }
 
 .CurrentEvents i {
@@ -35,14 +36,13 @@
 
 .CurrentEvents .play-btn {
  position: absolute;
- text-align: center;
  left: 0;
  right: 0;
- bottom: 14%;
+ bottom: -24%;
  transform: translateY(-50%);
 }
 
-@media (max-width: 50em) {
+@media (max-width: 990px) {
  .play-btn img {
   display: none;
  }

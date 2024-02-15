@@ -22,7 +22,7 @@
 }
 
 .Header .navbar-toggler {
- background-color: var(--primary-text);
+ background-color: rgb(6, 120, 170);
 }
 
 .Header nav ul {
@@ -56,6 +56,11 @@
 
 .Header .collapse {
  justify-content: space-between;
+ text-align: center;
+}
+
+.Header .collapse ul:last-of-type li {
+ display: inline;
 }
 
 .Header .nav-top {
